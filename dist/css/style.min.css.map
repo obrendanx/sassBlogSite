@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,EACI,OAAA,EACA,QAAA,EACA,WAAA,WAGJ,GACI,OAAA,KACA,MAAA,MACA,WAAA","file":"style.min.css","sourcesContent":["*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nh1{\r\n    height:50px;\r\n    width:200px;\r\n    background:green;\r\n}"]}

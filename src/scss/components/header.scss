@@ -1,0 +1,22 @@
+@import '../mixins.scss';
+
+.header{
+    height:150px;
+    width:100%;
+    background:blue;
+    @include flex(flex, column, nowrap, flex-start);
+    .top_head{
+        height:90px;
+        width:100%;
+        background:pink;
+        @include flex(flex, row, nowrap, flex-start);
+    }
+    .bottom_head{
+        height:60px;
+        width:100%;
+        background:purple;
+        .nav_ul{
+            
+        }
+    }
+}
