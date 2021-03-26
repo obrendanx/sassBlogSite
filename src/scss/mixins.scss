@@ -4,3 +4,9 @@
     flex-wrap: $wrap;
     justify-content: $justify;
 }
+
+@mixin font($family, $size, $weight){
+    font-family:$family, monospace, sans-serif;
+    font-size:$size;
+    font-weight:$weight;
+}
