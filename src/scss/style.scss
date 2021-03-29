@@ -16,3 +16,37 @@ body{
     width:70%;
     margin: auto;
 }
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        width:90%;
+    }
+
+    .header{
+        height:210px;
+        .top_head{
+            flex-direction: column-reverse;
+            height:150px;
+            .search_bar{
+                width:100% !important;
+            }
+            h2{
+                border:none !important;
+                width:100% !important;
+                height:60px;
+                line-height: 60px;
+                margin-top:0;
+                text-align:left;
+                padding-left:2.5%;
+            }
+        }
+        .bottom_head{
+            .nav_ul{
+                padding-left:2.5%;
+            }
+            a{
+                margin-left:0 !important;
+                font-size:0.9em !important;
+            }
+        }
+    }
+  }

@@ -22,7 +22,7 @@
             width:75%;
             padding-top:27.5px;
             padding-left:2.5%;
-            input[type="text"]{
+            input[type="search"]{
                 width:85%;
                 height:35px;
                 border:none;
@@ -35,12 +35,32 @@
                 height:35px;
                 width:10%;
                 border:none;
+                font-size:0.9em;
+            }
+            .search_submit{
+                background: #fff;
             }
         }
     }
     .bottom_head{
         height:60px;
         width:100%;
-        background:purple;
+        .nav_ul{
+            @include flex(flex, row, nowrap, flex-start);
+            list-style-type: none;
+            padding-left:2.5%;
+            a{
+                display:block;
+                height:60px;
+                margin-right:20px;
+                line-height: 60px;
+                text-decoration: none;
+                color:#000;
+                @include font('Roboto Mono', 1.2em, normal);
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
     }
 }
