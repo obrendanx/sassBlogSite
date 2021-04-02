@@ -1,4 +1,5 @@
 @import './components/header.scss';
+@import './components/maininfo.scss';
 @import './mixins.scss';
 
 *{
@@ -46,6 +47,16 @@ body{
             a{
                 margin-left:0 !important;
                 font-size:0.9em !important;
+            }
+        }
+
+        .segment{
+            @include flex(flex, column, nowrap, flex-start);
+            .story_img{
+                width:100%;
+            }
+            .story_wrap{
+                width:100%;
             }
         }
     }

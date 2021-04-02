@@ -1,0 +1,28 @@
+.main_info{
+    margin-top:20px;
+    .header_info{
+        height:50px;
+        width:100%;
+        padding:10px;
+        margin-bottom:20px;
+        border-bottom:solid 1px #ccc;
+    }
+    .segment{
+        height:250px;
+        width:75%;
+        background:blue;
+        @include flex(flex, row, nowrap, flex-start);
+        margin-bottom:20px;
+        margin-top:20px;
+        .story_img{
+            height:100%;
+            width:40%;
+            background:pink;
+        }
+        .story_wrap{
+            height:100%;
+            width:60%;
+            background:green;
+        }
+    }
+}
