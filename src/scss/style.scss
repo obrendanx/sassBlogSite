@@ -49,9 +49,11 @@ body{
                 font-size:0.9em !important;
             }
         }
+    }
 
+    .main_info{
         .segment{
-            @include flex(flex, column, nowrap, flex-start);
+            flex-direction: column !important;
             .story_img{
                 width:100%;
             }
