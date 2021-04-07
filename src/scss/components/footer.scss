@@ -1,0 +1,12 @@
+.footer{
+    height:30px;
+    text-align:center;
+    padding:5px;
+    @include font('Sawarabi Mincho', 0.7em, normal);
+    margin-top:10px;
+    margin-bottom:10px;
+    .footer_link{
+        color: #000;
+        text-decoration: none;
+    };
+}
